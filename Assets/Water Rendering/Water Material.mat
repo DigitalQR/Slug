@@ -154,27 +154,31 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: .5
+        second: 0.5
       data:
         first:
           name: _WaveMagnitude
-        second: .300000012
+        second: 0.5
       data:
         first:
           name: _WaveSpeed
-        second: .25
+        second: 0.3
       data:
         first:
-          name: _Parallax
-        second: .0199999996
-      data:
-        first:
-          name: _ZWrite
-        second: 0
+          name: _SpecularFactor
+        second: 1
       data:
         first:
           name: _Glossiness
         second: 1
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
+      data:
+        first:
+          name: _ZWrite
+        second: 0
       data:
         first:
           name: _BumpScale
@@ -202,7 +206,7 @@ Material:
       data:
         first:
           name: _waveSpeed
-        second: .100000001
+        second: 0.1
       data:
         first:
           name: _waveMagnitude
@@ -210,11 +214,7 @@ Material:
       data:
         first:
           name: _WaveFrequency
-        second: .100000001
-      data:
-        first:
-          name: _SpecularFactor
-        second: 1
+        second: 0.1
     m_Colors:
       data:
         first:
@@ -227,15 +227,15 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+        second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
       data:
         first:
           name: _Colour
-        second: {r: .311797112, g: .436133057, b: .580882311, a: 1}
+        second: {r: 0.3117971, g: 0.43613306, b: 0.5808823, a: 1}
       data:
         first:
           name: _WaveDirection
-        second: {r: -.300000012, g: .5, b: 0, a: 0}
+        second: {r: -0.3, g: 0.5, b: 0, a: 0}
       data:
         first:
           name: _Current
@@ -243,4 +243,4 @@ Material:
       data:
         first:
           name: _ReflectColor
-        second: {r: 1, g: 1, b: 1, a: .5}
+        second: {r: 1, g: 1, b: 1, a: 0.5}

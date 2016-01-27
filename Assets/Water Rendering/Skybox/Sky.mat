@@ -82,28 +82,28 @@ Material:
         first:
           name: _FrontTex
         second:
-          m_Texture: {fileID: 2800000, guid: 178aa32d7e13d4142bc2a635fa20491e, type: 3}
+          m_Texture: {fileID: 2800000, guid: a36382a6eae0d2c429926db3dbb37dd7, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BackTex
         second:
-          m_Texture: {fileID: 2800000, guid: a36382a6eae0d2c429926db3dbb37dd7, type: 3}
+          m_Texture: {fileID: 2800000, guid: 178aa32d7e13d4142bc2a635fa20491e, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _LeftTex
         second:
-          m_Texture: {fileID: 2800000, guid: e02c27c5b6eb13f43ad8cf09f9a57c55, type: 3}
+          m_Texture: {fileID: 2800000, guid: be2992adcef086c49bfa4513af7e573d, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _RightTex
         second:
-          m_Texture: {fileID: 2800000, guid: be2992adcef086c49bfa4513af7e573d, type: 3}
+          m_Texture: {fileID: 2800000, guid: e02c27c5b6eb13f43ad8cf09f9a57c55, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -132,23 +132,23 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: .5
+        second: 0.5
       data:
         first:
           name: _Exposure
         second: 1
       data:
         first:
+          name: _Glossiness
+        second: 0.5
+      data:
+        first:
           name: _Parallax
-        second: .0199999996
+        second: 0.02
       data:
         first:
           name: _ZWrite
         second: 1
-      data:
-        first:
-          name: _Glossiness
-        second: .5
       data:
         first:
           name: _BumpScale
@@ -189,4 +189,4 @@ Material:
       data:
         first:
           name: _Tint
-        second: {r: .5, g: .5, b: .5, a: .5}
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
