@@ -38,7 +38,6 @@
 				fixed3 bump = tex2Dlod(_BumpMap, v.texcoord);
 
 				v.vertex.xyz += v.normal * bump.x * _WaveMagnitude;
-				v.normal = tex2Dlod(_NormalMap, v.texcoord);
 			}
 
 			fixed4 _Colour;
@@ -53,8 +52,8 @@
 			{
 				fixed4 texture_colour = tex2D(_BumpMap, inp.uv_BumpMap);
 
-				output.Albedo = texture_colour.rgb * _Colour.rgb * 0.7;
-				output.Normal = UnpackNormal(tex2D(_NormalMap, inp.uv_BumpMap));
+				output.Albedo = texture_colour.rgb * _Colour.rgb * 0.3;
+				output.Normal = tex2D(_NormalMap, inp.uv_BumpMap);
 				output.Alpha = 0.6;
 				output.Emission = texCUBE(_Cube, WorldReflectionVector (inp, output.Normal)).rgb;
 				output.Specular = _SpecularFactor;
