@@ -52,10 +52,10 @@
 			{
 				fixed4 texture_colour = tex2D(_BumpMap, inp.uv_BumpMap);
 
-				output.Albedo = texture_colour.rgb * _Colour.rgb * 0.3;
+				output.Albedo = texture_colour.rgb * _Colour.rgb * 0.5;
 				output.Normal = tex2D(_NormalMap, inp.uv_BumpMap);
 				output.Alpha = 0.6;
-				output.Emission = texCUBE(_Cube, WorldReflectionVector (inp, output.Normal)).rgb;
+				output.Emission = texCUBE(_Cube, WorldReflectionVector (inp, output.Normal)).rgb * 0.5;
 				output.Specular = _SpecularFactor;
 				output.Gloss = _Glossiness;
 			}
