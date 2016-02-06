@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b128070cf62b92b459f36a7340094002, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -36,7 +36,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 26252224}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -110,8 +110,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 6
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1.03
+  m_Color: {r: 0.8897059, g: 0.7966825, b: 0.5429823, a: 1}
+  m_Intensity: 1.12
   m_Range: 1286.5557
   m_SpotAngle: 48.1
   m_CookieSize: 10
@@ -129,7 +129,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_BounceIntensity: 4.11
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -141,7 +141,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 26252223}
   m_LocalRotation: {x: 0.40821794, y: -0.23456973, z: 0.109381676, w: 0.87542605}
-  m_LocalPosition: {x: 298.8, y: 236.6, z: -51.4}
+  m_LocalPosition: {x: 324.47, y: 247.56, z: -47.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -385,7 +385,7 @@ Skybox:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 135357928}
   m_Enabled: 1
-  m_CustomSkybox: {fileID: 2100000, guid: f0973be0a174c1940a25113861f65069, type: 2}
+  m_CustomSkybox: {fileID: 2100000, guid: e222162ddb8d34547a133b673221b195, type: 2}
 --- !u!1 &148147702
 GameObject:
   m_ObjectHideFlags: 0
@@ -2303,7 +2303,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400024, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 127
+      value: 116.3
       objectReference: {fileID: 0}
     - target: {fileID: 400024, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2336,6 +2336,118 @@ Prefab:
     - target: {fileID: 100000, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
       propertyPath: m_Name
       value: Shack
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Big window front
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Small window front
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Small window back
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Big window frame front
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Small window frame front
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Frame back
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Door glass 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Door glass 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Door glass 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Lock
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Handle front
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_Name
+      value: Handle back
+      objectReference: {fileID: 0}
+    - target: {fileID: 400028, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 400022, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 400020, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 400028, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 400022, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 400020, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 26.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 32.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
