@@ -222,7 +222,7 @@ Material:
       data:
         first:
           name: _WaveMagnitude
-        second: .5
+        second: 4
       data:
         first:
           name: _WaveSpeed
@@ -275,7 +275,7 @@ Material:
       data:
         first:
           name: _WaveDirection
-        second: {r: -.300000012, g: .5, b: 0, a: 0}
+        second: {r: 1, g: 0, b: 0, a: 0}
       data:
         first:
           name: _Current
