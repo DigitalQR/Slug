@@ -14,11 +14,11 @@
 
 	}
 	SubShader{
-		Tags{ "Queue" = "Transparent" "RenderType" = "Transparent" }
+		Tags{ "Queue"="Transparent-1" "IgnoreProjector"="True" "RenderType"="Transparent" }
 		
 		Cull Off
 		CGPROGRAM
-		#pragma surface SurfaceFunction Lambert alpha vertex:VertexFunction
+		#pragma surface SurfaceFunction Lambert alpha vertex:VertexFunction target 3.0
 		
 			sampler2D _BumpMap;
 			sampler2D _NormalMap;
