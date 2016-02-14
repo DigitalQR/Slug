@@ -11,15 +11,16 @@ public class SlugMovement : MonoBehaviour {
 	{
 		rb = GetComponent<Rigidbody>();
 	}
-	void Update() 
+
+	void FixedUpdate() 
 	{
 		if (Input.GetKey(KeyCode.W))
 		{
-			rb.velocity = transform.right * speed;
+			rb.velocity = -transform.right * speed;
 		}
 		if (Input.GetKey(KeyCode.S))
 		{
-			rb.velocity = -transform.right * speed;;
+			rb.velocity = transform.right * speed;;
 		}
 	}
 }
