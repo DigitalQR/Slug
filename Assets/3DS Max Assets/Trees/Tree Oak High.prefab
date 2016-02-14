@@ -11,6 +11,7 @@ GameObject:
   - 33: {fileID: 3325352}
   - 23: {fileID: 2309594}
   - 95: {fileID: 9538358}
+  - 65: {fileID: 6537760}
   m_Layer: 0
   m_Name: Tree Oak High
   m_TagString: Untagged
@@ -49,8 +50,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -62,6 +65,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 148342}
   m_Mesh: {fileID: 4300000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+--- !u!65 &6537760
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08374718, y: 1.1575943, z: 0.08625968}
+  m_Center: {x: 0.0061557386, y: 0.5537971, z: 0.0036782501}
 --- !u!95 &9538358
 Animator:
   serializedVersion: 3
