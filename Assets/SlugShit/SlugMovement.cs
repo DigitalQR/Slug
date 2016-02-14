@@ -5,7 +5,6 @@ public class SlugMovement : MonoBehaviour {
 
 	public Rigidbody rb;
 	public float speed;
-	public float rotationSpeed = 1f;
 
 	void Start() 
 	{
@@ -14,13 +13,18 @@ public class SlugMovement : MonoBehaviour {
 
 	void FixedUpdate() 
 	{
-		if (Input.GetKey(KeyCode.W))
+        Vector3 right = -transform.right;
+        right.y = 0;
+        right.Normalize();
+        right.y = rb.velocity.y/speed;
+
+        if (Input.GetKey(KeyCode.W))
 		{
-			rb.velocity = -transform.right * speed;
+			rb.velocity = right * speed;
 		}
 		if (Input.GetKey(KeyCode.S))
 		{
-			rb.velocity = transform.right * speed;;
+			rb.velocity = -right * speed;;
 		}
 	}
 }
