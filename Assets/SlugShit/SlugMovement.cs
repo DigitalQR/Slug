@@ -13,18 +13,18 @@ public class SlugMovement : MonoBehaviour {
 
 	void FixedUpdate() 
 	{
-        Vector3 right = -transform.right;
-        right.y = 0;
-        right.Normalize();
-        right.y = rb.velocity.y/speed;
+        Vector3 forward = Camera.main.transform.forward;
+        forward.y = 0;
+        forward.Normalize();
+        forward.y = rb.velocity.y / speed;
 
         if (Input.GetKey(KeyCode.W))
 		{
-			rb.velocity = right * speed;
+            rb.velocity = forward * speed;
 		}
 		if (Input.GetKey(KeyCode.S))
 		{
-			rb.velocity = -right * speed;;
+            rb.velocity = -forward * speed; ;
 		}
 	}
 }
