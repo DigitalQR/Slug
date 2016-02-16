@@ -634,7 +634,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 135357928}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4975a6e437fc3b149a8cd508ce5bdd69, type: 3}
   m_Name: 
@@ -651,7 +651,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 135357928}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 646b5bc27a658f447b1d929fd5ffbd70, type: 3}
   m_Name: 
@@ -1170,7 +1170,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 374422885}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06f04f4702d0e9d46914b5bbb6e7c226, type: 3}
   m_Name: 
@@ -1202,7 +1202,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.43190432
+  m_Radius: 0.67
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &374422889
 Rigidbody:
@@ -2874,15 +2874,15 @@ Canvas:
   m_GameObject: {fileID: 964883985}
   m_Enabled: 1
   serializedVersion: 2
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_RenderMode: 1
+  m_Camera: {fileID: 135357932}
+  m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!1 &979001821
 GameObject:
@@ -3907,6 +3907,10 @@ Prefab:
     - target: {fileID: 11452874, guid: 6d57508e298edea4d8721315c2dc41fe, type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452874, guid: 6d57508e298edea4d8721315c2dc41fe, type: 2}
+      propertyPath: m_RaycastTarget
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6d57508e298edea4d8721315c2dc41fe, type: 2}
@@ -5917,7 +5921,7 @@ Terrain:
   m_TreeMaximumFullLODCount: 833
   m_DetailObjectDistance: 38
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 58
+  m_HeightmapPixelError: 200
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0
   m_CastShadows: 0
