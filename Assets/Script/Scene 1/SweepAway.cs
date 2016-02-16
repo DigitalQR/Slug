@@ -38,7 +38,6 @@ public class SweepAway : MonoBehaviour {
 
         if (fade)
         {
-            Debug.Log(black.color.a);
             if (black.color.a > 0) {
                 black.color = new Color(0f,0f,0f, black.color.a - 0.005f);
                 return;
