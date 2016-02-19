@@ -6,10 +6,34 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Box005
+    100004: Object001
+    100006: Object002
+    100008: Object003
+    100010: Object004
     400000: //RootNode
+    400002: Box005
+    400004: Object001
+    400006: Object002
+    400008: Object003
+    400010: Object004
     2300000: //RootNode
+    2300002: Box005
+    2300004: Object001
+    2300006: Object002
+    2300008: Object003
+    2300010: Object004
     3300000: //RootNode
+    3300002: Box005
+    3300004: Object001
+    3300006: Object002
+    3300008: Object003
+    3300010: Object004
     4300000: Box005
+    4300002: Object001
+    4300004: Object002
+    4300006: Object003
+    4300008: Object004
     9500000: //RootNode
   materials:
     importMaterials: 1
