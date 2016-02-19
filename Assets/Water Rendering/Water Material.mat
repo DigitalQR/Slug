@@ -182,11 +182,11 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: .5
+        second: 0.5
       data:
         first:
           name: _Parallax
-        second: .0199999996
+        second: 0.02
       data:
         first:
           name: _ZWrite
@@ -226,15 +226,15 @@ Material:
       data:
         first:
           name: _WaveSpeed
-        second: .300000012
+        second: 0.4
       data:
         first:
           name: _SpecularFactor
-        second: .708000004
+        second: 0.708
       data:
         first:
           name: _waveSpeed
-        second: .100000001
+        second: 0.1
       data:
         first:
           name: _waveMagnitude
@@ -242,19 +242,19 @@ Material:
       data:
         first:
           name: _WaveFrequency
-        second: .100000001
+        second: 0.1
       data:
         first:
           name: _WaveScale
-        second: .063000001
+        second: 0.063
       data:
         first:
           name: _ReflDistort
-        second: .439999998
+        second: 0.44
       data:
         first:
           name: _RefrDistort
-        second: .400000006
+        second: 0.4
     m_Colors:
       data:
         first:
@@ -267,11 +267,11 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+        second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
       data:
         first:
           name: _Colour
-        second: {r: .137543246, g: .566931367, b: .779411793, a: 1}
+        second: {r: 0.13754325, g: 0.56693137, b: 0.7794118, a: 1}
       data:
         first:
           name: _WaveDirection
@@ -283,11 +283,11 @@ Material:
       data:
         first:
           name: _ReflectColor
-        second: {r: 1, g: 1, b: 1, a: .5}
+        second: {r: 1, g: 1, b: 1, a: 0.5}
       data:
         first:
           name: _RefrColor
-        second: {r: .340000004, g: .850000024, b: .920000017, a: 1}
+        second: {r: 0.34, g: 0.85, b: 0.92, a: 1}
       data:
         first:
           name: WaveSpeed
@@ -295,4 +295,4 @@ Material:
       data:
         first:
           name: _HorizonColor
-        second: {r: .172000006, g: .463, b: .435000002, a: 1}
+        second: {r: 0.172, g: 0.463, b: 0.435, a: 1}

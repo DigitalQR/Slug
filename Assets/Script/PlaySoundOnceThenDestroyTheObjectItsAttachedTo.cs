@@ -2,17 +2,17 @@
 using System.Collections;
 
 public class PlaySoundOnceThenDestroyTheObjectItsAttachedTo : MonoBehaviour {
-	public AudioClip otherClip;
-	AudioSource audio;
+
+	AudioSource clip;
 
 	void Start () {
-		audio = GetComponent<AudioSource>();
-		audio.Play();
+        clip = GetComponent<AudioSource>();
+        clip.Play();
 	}
 
 
 	void Update() {
-		if (!audio.isPlaying) {
+		if (!clip.isPlaying) {
 			Destroy(gameObject);
 		}
 	}
