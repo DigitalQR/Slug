@@ -1,19 +1,205 @@
 fileFormatVersion: 2
-guid: 2cba799faf0c88e46a6844ccde5c53b9
-timeCreated: 1454772616
+guid: 691aa283c9da3954dadb682f29ec9f28
+timeCreated: 1455923412
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Sphere001
-    100004: Sphere002
-    400000: //RootNode
-    400002: Sphere001
-    400004: Sphere002
-    2300000: Sphere002
-    3300000: Sphere002
+    100000: Globs002
+    100002: Globs003
+    100004: Globs004
+    100006: Globs005
+    100008: Globs006
+    100010: Globs007
+    100012: Globs008
+    100014: Globs009
+    100016: Globs01
+    100018: Globs010
+    100020: Globs011
+    100022: Globs012
+    100024: Globs013
+    100026: Globs014
+    100028: Globs015
+    100030: Globs016
+    100032: Globs017
+    100034: Globs018
+    100036: Globs019
+    100038: Globs020
+    100040: Globs021
+    100042: Globs022
+    100044: Globs023
+    100046: Globs024
+    100048: Globs025
+    100050: Globs026
+    100052: Globs027
+    100054: Globs028
+    100056: Globs029
+    100058: Globs030
+    100060: Globs031
+    100062: Globs032
+    100064: Globs033
+    100066: Globs034
+    100068: Globs035
+    100070: Globs036
+    100072: Globs037
+    100074: //RootNode
+    100076: Sphere001
+    100078: Sphere002
+    400000: Globs002
+    400002: Globs003
+    400004: Globs004
+    400006: Globs005
+    400008: Globs006
+    400010: Globs007
+    400012: Globs008
+    400014: Globs009
+    400016: Globs01
+    400018: Globs010
+    400020: Globs011
+    400022: Globs012
+    400024: Globs013
+    400026: Globs014
+    400028: Globs015
+    400030: Globs016
+    400032: Globs017
+    400034: Globs018
+    400036: Globs019
+    400038: Globs020
+    400040: Globs021
+    400042: Globs022
+    400044: Globs023
+    400046: Globs024
+    400048: Globs025
+    400050: Globs026
+    400052: Globs027
+    400054: Globs028
+    400056: Globs029
+    400058: Globs030
+    400060: Globs031
+    400062: Globs032
+    400064: Globs033
+    400066: Globs034
+    400068: Globs035
+    400070: Globs036
+    400072: Globs037
+    400074: //RootNode
+    400076: Sphere001
+    400078: Sphere002
+    2300000: Globs002
+    2300002: Globs003
+    2300004: Globs004
+    2300006: Globs005
+    2300008: Globs006
+    2300010: Globs007
+    2300012: Globs008
+    2300014: Globs009
+    2300016: Globs01
+    2300018: Globs010
+    2300020: Globs011
+    2300022: Globs012
+    2300024: Globs013
+    2300026: Globs014
+    2300028: Globs015
+    2300030: Globs016
+    2300032: Globs017
+    2300034: Globs018
+    2300036: Globs019
+    2300038: Globs020
+    2300040: Globs021
+    2300042: Globs022
+    2300044: Globs023
+    2300046: Globs024
+    2300048: Globs025
+    2300050: Globs026
+    2300052: Globs027
+    2300054: Globs028
+    2300056: Globs029
+    2300058: Globs030
+    2300060: Globs031
+    2300062: Globs032
+    2300064: Globs033
+    2300066: Globs034
+    2300068: Globs035
+    2300070: Globs036
+    2300072: Globs037
+    2300074: Sphere002
+    3300000: Globs002
+    3300002: Globs003
+    3300004: Globs004
+    3300006: Globs005
+    3300008: Globs006
+    3300010: Globs007
+    3300012: Globs008
+    3300014: Globs009
+    3300016: Globs01
+    3300018: Globs010
+    3300020: Globs011
+    3300022: Globs012
+    3300024: Globs013
+    3300026: Globs014
+    3300028: Globs015
+    3300030: Globs016
+    3300032: Globs017
+    3300034: Globs018
+    3300036: Globs019
+    3300038: Globs020
+    3300040: Globs021
+    3300042: Globs022
+    3300044: Globs023
+    3300046: Globs024
+    3300048: Globs025
+    3300050: Globs026
+    3300052: Globs027
+    3300054: Globs028
+    3300056: Globs029
+    3300058: Globs030
+    3300060: Globs031
+    3300062: Globs032
+    3300064: Globs033
+    3300066: Globs034
+    3300068: Globs035
+    3300070: Globs036
+    3300072: Globs037
+    3300074: Sphere002
     4300000: Sphere002
+    4300002: Globs01
+    4300004: Globs002
+    4300006: Globs003
+    4300008: Globs004
+    4300010: Globs005
+    4300012: Globs006
+    4300014: Globs007
+    4300016: Globs008
+    4300018: Globs009
+    4300020: Globs010
+    4300022: Globs011
+    4300024: Globs012
+    4300026: Globs013
+    4300028: Globs014
+    4300030: Globs015
+    4300032: Globs016
+    4300034: Globs017
+    4300036: Globs018
+    4300038: Globs019
+    4300040: Globs020
+    4300042: Globs021
+    4300044: Globs022
+    4300046: Globs023
+    4300048: Globs024
+    4300050: Globs025
+    4300052: Globs026
+    4300054: Globs027
+    4300056: Globs028
+    4300058: Globs029
+    4300060: Globs030
+    4300062: Globs031
+    4300064: Globs032
+    4300066: Globs033
+    4300068: Globs034
+    4300070: Globs035
+    4300072: Globs036
+    4300074: Globs037
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -35,7 +221,115 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Globs01
+        weight: 1
+      - path: Globs002
+        weight: 1
+      - path: Globs003
+        weight: 1
+      - path: Globs004
+        weight: 1
+      - path: Globs005
+        weight: 1
+      - path: Globs006
+        weight: 1
+      - path: Globs007
+        weight: 1
+      - path: Globs008
+        weight: 1
+      - path: Globs009
+        weight: 1
+      - path: Globs010
+        weight: 1
+      - path: Globs011
+        weight: 1
+      - path: Globs012
+        weight: 1
+      - path: Globs013
+        weight: 1
+      - path: Globs014
+        weight: 1
+      - path: Globs015
+        weight: 1
+      - path: Globs016
+        weight: 1
+      - path: Globs017
+        weight: 1
+      - path: Globs018
+        weight: 1
+      - path: Globs019
+        weight: 1
+      - path: Globs020
+        weight: 1
+      - path: Globs021
+        weight: 1
+      - path: Globs022
+        weight: 1
+      - path: Globs023
+        weight: 1
+      - path: Globs024
+        weight: 1
+      - path: Globs025
+        weight: 1
+      - path: Globs026
+        weight: 1
+      - path: Globs027
+        weight: 1
+      - path: Globs028
+        weight: 1
+      - path: Globs029
+        weight: 1
+      - path: Globs030
+        weight: 1
+      - path: Globs031
+        weight: 1
+      - path: Globs032
+        weight: 1
+      - path: Globs033
+        weight: 1
+      - path: Globs034
+        weight: 1
+      - path: Globs035
+        weight: 1
+      - path: Globs036
+        weight: 1
+      - path: Globs037
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
