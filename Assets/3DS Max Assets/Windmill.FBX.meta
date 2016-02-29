@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e714ecd89ffaa3742b1239eb1f8b0ccf
-timeCreated: 1455471426
+timeCreated: 1456771137
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -62,7 +62,7 @@ ModelImporter:
     4300016: Object005
     4300018: Object006
     4300020: Object007
-    7400000: Take 001
+    7400000: WindmillAnimation
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -78,7 +78,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -86,18 +86,18 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: WindmillAnimation
       takeName: Take 001
-      firstFrame: 0
-      lastFrame: 99.5
+      firstFrame: 1
+      lastFrame: 100
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
-      cycleOffset: 0
+      cycleOffset: 5
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -108,14 +108,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.2800474
-        functionName: NewEvent
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask:
       - path: 
         weight: 1
@@ -147,7 +140,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 7
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
