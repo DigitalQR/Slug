@@ -221,6 +221,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 6507938}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &8507067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 8507068}
+  - 65: {fileID: 8507069}
+  m_Layer: 0
+  m_Name: Woods invisible wall (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8507068
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8507067}
+  m_LocalRotation: {x: 0, y: 0.74070704, z: 0, w: -0.6718282}
+  m_LocalPosition: {x: -151.8, y: -43.3, z: -564.7}
+  m_LocalScale: {x: 1.2574986, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 504181643}
+  m_RootOrder: 21
+--- !u!65 &8507069
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8507067}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 122.73, y: 29.51, z: 17.5}
+  m_Center: {x: 0, y: 0.13475037, z: 0}
 --- !u!1 &8784948 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100024, guid: 981191fb53bb34f4aa17031818e9e4ca, type: 3}
@@ -1862,6 +1902,77 @@ Transform:
   - {fileID: 4457206}
   m_Father: {fileID: 0}
   m_RootOrder: 15
+--- !u!1001 &383658250
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 504181643}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -147.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -133.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -601.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.4625999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8865672
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_Name
+      value: Bush * (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+  m_ParentPrefab: {fileID: 100100000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &383658251 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+  m_PrefabInternal: {fileID: 383658250}
+--- !u!1 &383658252 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+  m_PrefabInternal: {fileID: 383658250}
+--- !u!65 &383658253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 383658252}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.68, y: 0.94, z: 0.52}
+  m_Center: {x: -0.01698251, y: 0.5537972, z: 0.013954252}
 --- !u!1 &397604600
 GameObject:
   m_ObjectHideFlags: 0
@@ -2012,6 +2123,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 408586880}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &445006835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445006836}
+  - 65: {fileID: 445006837}
+  m_Layer: 0
+  m_Name: Woods invisible wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &445006836
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 445006835}
+  m_LocalRotation: {x: 0, y: 0.74070704, z: 0, w: -0.6718282}
+  m_LocalPosition: {x: -161.7, y: -43.3, z: -422.9}
+  m_LocalScale: {x: 1.2574984, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 504181643}
+  m_RootOrder: 20
+--- !u!65 &445006837
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 445006835}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 122.73, y: 29.51, z: 17.5}
+  m_Center: {x: 0, y: 0.13475037, z: 0}
 --- !u!1 &463783586
 GameObject:
   m_ObjectHideFlags: 0
@@ -2265,8 +2416,89 @@ Transform:
   - {fileID: 868948161}
   - {fileID: 1867155571}
   - {fileID: 1841007356}
+  - {fileID: 1747416301}
+  - {fileID: 445006836}
+  - {fileID: 8507068}
+  - {fileID: 1376301669}
+  - {fileID: 594159401}
+  - {fileID: 1151062217}
+  - {fileID: 1668687268}
+  - {fileID: 1095109300}
+  - {fileID: 383658251}
+  - {fileID: 525796279}
   m_Father: {fileID: 0}
   m_RootOrder: 20
+--- !u!1001 &525796278
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 504181643}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 49.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -131.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -510.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.46717492
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8841649
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_Name
+      value: Bush * (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+  m_ParentPrefab: {fileID: 100100000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &525796279 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+  m_PrefabInternal: {fileID: 525796278}
+--- !u!1 &525796280 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 1f6bf103fd3778449879b99c9ae3533e, type: 3}
+  m_PrefabInternal: {fileID: 525796278}
+--- !u!65 &525796281
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 525796280}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.68, y: 0.94, z: 0.52}
+  m_Center: {x: -0.01698251, y: 0.5537972, z: 0.013954252}
 --- !u!1 &532115481
 GameObject:
   m_ObjectHideFlags: 0
@@ -2376,6 +2608,46 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1252888296}
   m_GameObject: {fileID: 555007980}
+--- !u!1 &594159400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 594159401}
+  - 65: {fileID: 594159402}
+  m_Layer: 0
+  m_Name: Woods invisible wall (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &594159401
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 594159400}
+  m_LocalRotation: {x: 0, y: 0.8310819, z: 0, w: 0.55614996}
+  m_LocalPosition: {x: 62.27, y: -43.3, z: -583.81}
+  m_LocalScale: {x: 0.6517874, y: 1, z: 0.2989402}
+  m_Children: []
+  m_Father: {fileID: 504181643}
+  m_RootOrder: 23
+--- !u!65 &594159402
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 594159400}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 122.73, y: 29.51, z: 17.5}
+  m_Center: {x: 0, y: 0.13475037, z: 0}
 --- !u!1 &600504547
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,6 +2989,22 @@ CapsuleCollider:
   m_Height: 42.5
   m_Direction: 2
   m_Center: {x: -0.44459912, y: 0, z: 26.161985}
+--- !u!1 &651162601 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 98b30e42181939e4db8340fd683ec4fd, type: 3}
+  m_PrefabInternal: {fileID: 651162597}
+--- !u!65 &651162602
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 651162601}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &655391368 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: eac98f56d1fc95246b412185fdeecfc3, type: 3}
@@ -3927,6 +4215,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 504181643}
   m_RootOrder: 11
+--- !u!1 &1095109299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1095109300}
+  - 65: {fileID: 1095109301}
+  m_Layer: 0
+  m_Name: Woods invisible wall (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1095109300
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1095109299}
+  m_LocalRotation: {x: 0, y: 0.3018881, z: 0, w: 0.9533434}
+  m_LocalPosition: {x: -23, y: -43.3, z: -436.2}
+  m_LocalScale: {x: 1.3799, y: 1, z: 0.29894018}
+  m_Children: []
+  m_Father: {fileID: 504181643}
+  m_RootOrder: 26
+--- !u!65 &1095109301
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1095109299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 122.73, y: 29.51, z: 17.5}
+  m_Center: {x: 0, y: 0.13475037, z: 0}
 --- !u!1 &1110588755
 GameObject:
   m_ObjectHideFlags: 0
@@ -4152,6 +4480,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1148547759}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1151062216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1151062217}
+  - 65: {fileID: 1151062218}
+  m_Layer: 0
+  m_Name: Woods invisible wall (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1151062217
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1151062216}
+  m_LocalRotation: {x: 0, y: 0.6191412, z: 0, w: 0.7852797}
+  m_LocalPosition: {x: 70.5, y: -43.3, z: -536.5}
+  m_LocalScale: {x: 0.65178734, y: 1, z: 0.29894018}
+  m_Children: []
+  m_Father: {fileID: 504181643}
+  m_RootOrder: 24
+--- !u!65 &1151062218
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1151062216}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 122.73, y: 29.51, z: 17.5}
+  m_Center: {x: 0, y: 0.13475037, z: 0}
 --- !u!1 &1196920455
 GameObject:
   m_ObjectHideFlags: 0
@@ -5164,6 +5532,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1343951590}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1376301668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1376301669}
+  - 65: {fileID: 1376301670}
+  m_Layer: 0
+  m_Name: Woods invisible wall (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1376301669
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1376301668}
+  m_LocalRotation: {x: 0, y: 0.9858835, z: 0, w: -0.1674331}
+  m_LocalPosition: {x: -122.67, y: -43.3, z: -631.32}
+  m_LocalScale: {x: 0.6517873, y: 1, z: 0.29894015}
+  m_Children: []
+  m_Father: {fileID: 504181643}
+  m_RootOrder: 22
+--- !u!65 &1376301670
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1376301668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 122.73, y: 29.51, z: 17.5}
+  m_Center: {x: 0, y: 0.13475037, z: 0}
 --- !u!1001 &1377418868
 Prefab:
   m_ObjectHideFlags: 0
@@ -5722,6 +6130,22 @@ CapsuleCollider:
   m_Height: 42.5
   m_Direction: 2
   m_Center: {x: -0.44459912, y: 0, z: 26.161985}
+--- !u!1 &1564251919 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 98b30e42181939e4db8340fd683ec4fd, type: 3}
+  m_PrefabInternal: {fileID: 1564251915}
+--- !u!65 &1564251920
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1564251919}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1571435363 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 98b30e42181939e4db8340fd683ec4fd, type: 3}
@@ -6120,6 +6544,46 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 122.73, y: 29.51, z: 17.5}
   m_Center: {x: 0, y: 0.13475037, z: 0}
+--- !u!1 &1668687267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1668687268}
+  - 65: {fileID: 1668687269}
+  m_Layer: 0
+  m_Name: Woods invisible wall (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1668687268
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1668687267}
+  m_LocalRotation: {x: 0, y: 0.46760738, z: 0, w: 0.88393635}
+  m_LocalPosition: {x: 42.59, y: -43.3, z: -481.08}
+  m_LocalScale: {x: 0.6517874, y: 1, z: 0.29894018}
+  m_Children: []
+  m_Father: {fileID: 504181643}
+  m_RootOrder: 25
+--- !u!65 &1668687269
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1668687267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 122.73, y: 29.51, z: 17.5}
+  m_Center: {x: 0, y: 0.13475037, z: 0}
 --- !u!1 &1676185834
 GameObject:
   m_ObjectHideFlags: 0
@@ -6353,6 +6817,22 @@ CapsuleCollider:
   m_Height: 42.5
   m_Direction: 2
   m_Center: {x: -0.44459912, y: 0, z: 26.161985}
+--- !u!1 &1720618442 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 98b30e42181939e4db8340fd683ec4fd, type: 3}
+  m_PrefabInternal: {fileID: 1720618438}
+--- !u!65 &1720618443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1720618442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1736602857
 Prefab:
   m_ObjectHideFlags: 0
@@ -6432,6 +6912,62 @@ CapsuleCollider:
   m_Height: 42.5
   m_Direction: 2
   m_Center: {x: -0.44459912, y: 0, z: 26.161985}
+--- !u!1 &1736602861 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 98b30e42181939e4db8340fd683ec4fd, type: 3}
+  m_PrefabInternal: {fileID: 1736602857}
+--- !u!65 &1736602862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1736602861}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1747416300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1747416301}
+  - 65: {fileID: 1747416302}
+  m_Layer: 0
+  m_Name: Water invisible wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1747416301
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1747416300}
+  m_LocalRotation: {x: 0, y: 0.99979514, z: 0, w: -0.020239646}
+  m_LocalPosition: {x: -74.32922, y: -52.080917, z: 9.371948}
+  m_LocalScale: {x: 0.7193763, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 504181643}
+  m_RootOrder: 19
+--- !u!65 &1747416302
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1747416300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 122.73, y: 29.51, z: 17.5}
+  m_Center: {x: 0, y: 0.13475037, z: 0}
 --- !u!1 &1749684664
 GameObject:
   m_ObjectHideFlags: 0
@@ -7588,7 +8124,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 98b30e42181939e4db8340fd683ec4fd, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 98b30e42181939e4db8340fd683ec4fd, type: 3}
       propertyPath: m_LocalPosition.y
