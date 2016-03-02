@@ -21,6 +21,7 @@ ModelImporter:
     100026: Torus001
     100028: Torus002
     100030: Object001
+    100032: Sky001
     400000: Box004
     400002: Box005
     400004: Box006
@@ -37,6 +38,7 @@ ModelImporter:
     400026: Torus001
     400028: Torus002
     400030: Object001
+    400032: Sky001
     2300000: Box004
     2300002: Box005
     2300004: Box006
