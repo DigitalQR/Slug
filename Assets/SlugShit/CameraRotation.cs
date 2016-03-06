@@ -4,7 +4,7 @@ using System.Collections;
 public class CameraRotation : MonoBehaviour {
 
 
-	public Rigidbody rb;
+	Rigidbody rb;
 	public float rotationSpeed = 4f;
 	// Use this for initialization
 	void Start () 

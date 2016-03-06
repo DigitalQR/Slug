@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using Leap;
 using System.Collections;
 
 public class SlugMovement : MonoBehaviour {
 
-	public Rigidbody rb;
+	Rigidbody rb;
+    public Transform LEAP_controller;
 	public float speed;
 
 	void Start() 
@@ -13,18 +15,28 @@ public class SlugMovement : MonoBehaviour {
 
 	void FixedUpdate() 
 	{
-        Vector3 forward = Camera.main.transform.forward;
-        forward.y = 0;
-        forward.Normalize();
-        forward.y = rb.velocity.y / speed;
+        Controller controller = new Controller();
+        HandList hands = controller.Frame().Hands;
+        
 
-        if (Input.GetKey(KeyCode.W))
-		{
-            rb.velocity = forward * speed;
-		}
-		if (Input.GetKey(KeyCode.S))
-		{
-            rb.velocity = -forward * speed; ;
-		}
+        if (hands.Count != 0)
+        {
+            Hand hand = hands[0];
+            Vector3 hand_direction = new Vector3(-hand.PalmPosition.ToUnity().x, hand.PalmPosition.ToUnity().z, hand.PalmPosition.ToUnity().y);
+            hand_direction = Camera.main.transform.rotation * hand_direction;
+
+            Vector3 hand_position = LEAP_controller.position + hand_direction;
+            
+
+
+            Vector3 direction = hand_position - transform.position;
+            direction.y = 0;
+            Debug.DrawRay(transform.position, direction, Color.red);
+            direction.Normalize();
+            direction.y = rb.velocity.y / speed;
+
+            rb.velocity = direction * speed;
+            
+        }
 	}
 }
