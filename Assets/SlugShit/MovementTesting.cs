@@ -5,6 +5,7 @@ public class MovementTesting : MonoBehaviour {
 
     Rigidbody rb;
     float speed;
+    int cooldown = 0;
     float rotation_speed = 4f;
     bool debug_movement = false;
 
@@ -16,10 +17,21 @@ public class MovementTesting : MonoBehaviour {
 
     void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.M))
+        if (cooldown != 0)
+            cooldown--;
+
+        if (Input.GetKeyDown(KeyCode.M) && cooldown == 0)
         {
             debug_movement = !debug_movement;
+
+            if(debug_movement)
+                Cursor.lockState = CursorLockMode.Locked;
+            else
+                Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = !debug_movement;
+
             Debug.Log("Debug Movement: " + debug_movement);
+            cooldown = 10;
         }
         
 
@@ -41,8 +53,8 @@ public class MovementTesting : MonoBehaviour {
             rb.velocity = direction * speed;
         }
 
-        rb.rotation = Quaternion.Euler(rb.rotation.eulerAngles + new Vector3
-            (0f, rotation_speed * Input.GetAxis("Mouse X"), 0f));
+        rb.rotation *= Quaternion.AngleAxis(rotation_speed * Input.GetAxis("Mouse X"), Vector3.up);
+
     }
 
 }
