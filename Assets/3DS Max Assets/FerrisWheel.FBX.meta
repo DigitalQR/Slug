@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: d78d8f05ce1c47a458fe3c7fd135a987
+timeCreated: 1457810183
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box003
+    100004: Box005
+    100006: Box006
+    100008: Cart002
+    100010: Cart003
+    100012: Cart004
+    100014: Cart005
+    100016: Cart006
+    100018: Cart007
+    100020: Cart008
+    100022: Cart009
+    100024: Cart01
+    100026: Cart010
+    100028: Cart011
+    100030: Cart012
+    100032: Cart013
+    100034: Cart014
+    100036: Cart015
+    100038: Cart016
+    100040: Cart017
+    100042: Cart018
+    100044: //RootNode
+    100046: Tube001
+    100048: Wheel002
+    400000: Box001
+    400002: Box003
+    400004: Box005
+    400006: Box006
+    400008: Cart002
+    400010: Cart003
+    400012: Cart004
+    400014: Cart005
+    400016: Cart006
+    400018: Cart007
+    400020: Cart008
+    400022: Cart009
+    400024: Cart01
+    400026: Cart010
+    400028: Cart011
+    400030: Cart012
+    400032: Cart013
+    400034: Cart014
+    400036: Cart015
+    400038: Cart016
+    400040: Cart017
+    400042: Cart018
+    400044: //RootNode
+    400046: Tube001
+    400048: Wheel002
+    2300000: Box001
+    2300002: Box003
+    2300004: Box005
+    2300006: Box006
+    2300008: Cart002
+    2300010: Cart003
+    2300012: Cart004
+    2300014: Cart005
+    2300016: Cart006
+    2300018: Cart007
+    2300020: Cart008
+    2300022: Cart009
+    2300024: Cart01
+    2300026: Cart010
+    2300028: Cart011
+    2300030: Cart012
+    2300032: Cart013
+    2300034: Cart014
+    2300036: Cart015
+    2300038: Cart016
+    2300040: Cart017
+    2300042: Cart018
+    2300044: Tube001
+    2300046: Wheel002
+    3300000: Box001
+    3300002: Box003
+    3300004: Box005
+    3300006: Box006
+    3300008: Cart002
+    3300010: Cart003
+    3300012: Cart004
+    3300014: Cart005
+    3300016: Cart006
+    3300018: Cart007
+    3300020: Cart008
+    3300022: Cart009
+    3300024: Cart01
+    3300026: Cart010
+    3300028: Cart011
+    3300030: Cart012
+    3300032: Cart013
+    3300034: Cart014
+    3300036: Cart015
+    3300038: Cart016
+    3300040: Cart017
+    3300042: Cart018
+    3300044: Tube001
+    3300046: Wheel002
+    4300000: Wheel002
+    4300002: Cart01
+    4300004: Cart002
+    4300006: Cart003
+    4300008: Cart004
+    4300010: Cart005
+    4300012: Cart006
+    4300014: Cart007
+    4300016: Cart008
+    4300018: Cart009
+    4300020: Cart010
+    4300022: Cart011
+    4300024: Cart012
+    4300026: Cart013
+    4300028: Cart014
+    4300030: Cart015
+    4300032: Cart016
+    4300034: Cart017
+    4300036: Cart018
+    4300038: Tube001
+    4300040: Box001
+    4300042: Box003
+    4300044: Box005
+    4300046: Box006
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box003
+        weight: 1
+      - path: Box005
+        weight: 1
+      - path: Box006
+        weight: 1
+      - path: Wheel002
+        weight: 1
+      - path: Wheel002/Cart01
+        weight: 1
+      - path: Wheel002/Cart002
+        weight: 1
+      - path: Wheel002/Cart003
+        weight: 1
+      - path: Wheel002/Cart004
+        weight: 1
+      - path: Wheel002/Cart005
+        weight: 1
+      - path: Wheel002/Cart006
+        weight: 1
+      - path: Wheel002/Cart007
+        weight: 1
+      - path: Wheel002/Cart008
+        weight: 1
+      - path: Wheel002/Cart009
+        weight: 1
+      - path: Wheel002/Cart010
+        weight: 1
+      - path: Wheel002/Cart011
+        weight: 1
+      - path: Wheel002/Cart012
+        weight: 1
+      - path: Wheel002/Cart013
+        weight: 1
+      - path: Wheel002/Cart014
+        weight: 1
+      - path: Wheel002/Cart015
+        weight: 1
+      - path: Wheel002/Cart016
+        weight: 1
+      - path: Wheel002/Cart017
+        weight: 1
+      - path: Wheel002/Cart018
+        weight: 1
+      - path: Wheel002/Tube001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

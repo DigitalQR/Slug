@@ -31,7 +31,7 @@ public class MovementTesting : MonoBehaviour {
             Cursor.visible = !debug_movement;
 
             Debug.Log("Debug Movement: " + debug_movement);
-            cooldown = 10;
+            cooldown = 20;
         }
         
 
