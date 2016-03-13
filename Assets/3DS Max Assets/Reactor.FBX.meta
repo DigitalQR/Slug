@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 1e2e561df44f6ce4f8f863c3f1ec7341
+timeCreated: 1457810068
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box003
+    100004: Box004
+    100006: Box005
+    100008: Box006
+    100010: Box007
+    100012: Cone001
+    100014: Cone002
+    100016: Cone003
+    100018: Cone004
+    100020: Cylinder001
+    100022: Cylinder002
+    100024: Cylinder003
+    100026: Cylinder004
+    100028: PivotDoor001
+    100030: Pyramid001
+    100032: //RootNode
+    100034: Tower003
+    100036: Tower004
+    100038: Tower005
+    100040: Tower2
+    100042: Wall001
+    100044: Wall002
+    100046: Wall003
+    100048: Wall004
+    400000: Box001
+    400002: Box003
+    400004: Box004
+    400006: Box005
+    400008: Box006
+    400010: Box007
+    400012: Cone001
+    400014: Cone002
+    400016: Cone003
+    400018: Cone004
+    400020: Cylinder001
+    400022: Cylinder002
+    400024: Cylinder003
+    400026: Cylinder004
+    400028: PivotDoor001
+    400030: Pyramid001
+    400032: //RootNode
+    400034: Tower003
+    400036: Tower004
+    400038: Tower005
+    400040: Tower2
+    400042: Wall001
+    400044: Wall002
+    400046: Wall003
+    400048: Wall004
+    2300000: Box001
+    2300002: Box003
+    2300004: Box004
+    2300006: Box005
+    2300008: Box007
+    2300010: Cone001
+    2300012: Cone002
+    2300014: Cone003
+    2300016: Cone004
+    2300018: Cylinder001
+    2300020: Cylinder002
+    2300022: Cylinder003
+    2300024: Cylinder004
+    2300026: PivotDoor001
+    2300028: Pyramid001
+    2300030: Tower003
+    2300032: Tower004
+    2300034: Tower005
+    2300036: Tower2
+    2300038: Wall001
+    2300040: Wall002
+    2300042: Wall003
+    2300044: Wall004
+    3300000: Box001
+    3300002: Box003
+    3300004: Box004
+    3300006: Box005
+    3300008: Box007
+    3300010: Cone001
+    3300012: Cone002
+    3300014: Cone003
+    3300016: Cone004
+    3300018: Cylinder001
+    3300020: Cylinder002
+    3300022: Cylinder003
+    3300024: Cylinder004
+    3300026: PivotDoor001
+    3300028: Pyramid001
+    3300030: Tower003
+    3300032: Tower004
+    3300034: Tower005
+    3300036: Tower2
+    3300038: Wall001
+    3300040: Wall002
+    3300042: Wall003
+    3300044: Wall004
+    4300000: Tower2
+    4300002: Wall001
+    4300004: Box001
+    4300006: Pyramid001
+    4300008: PivotDoor001
+    4300010: Cone001
+    4300012: Tower003
+    4300014: Tower004
+    4300016: Tower005
+    4300018: Cone002
+    4300020: Cone003
+    4300022: Cone004
+    4300024: Wall002
+    4300026: Wall003
+    4300028: Wall004
+    4300030: Box003
+    4300032: Cylinder001
+    4300034: Cylinder002
+    4300036: Cylinder003
+    4300038: Cylinder004
+    4300040: Box004
+    4300042: Box005
+    4300044: Box007
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
