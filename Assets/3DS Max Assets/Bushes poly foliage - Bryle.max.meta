@@ -3,8 +3,71 @@ guid: 1d9595cfca3adb745ae643544f907ee3
 timeCreated: 1455664140
 licenseType: Free
 ModelImporter:
-  serializedVersion: 18
-  fileIDToRecycleName: {}
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plane001
+    100004: Plane002
+    100006: Plane003
+    100008: Plane004
+    100010: Plane005
+    100012: Plane006
+    100014: Plane007
+    100016: Plane008
+    100018: Plane009
+    100020: Plane010
+    100022: Plane011
+    100024: Plane012
+    400000: //RootNode
+    400002: Plane001
+    400004: Plane002
+    400006: Plane003
+    400008: Plane004
+    400010: Plane005
+    400012: Plane006
+    400014: Plane007
+    400016: Plane008
+    400018: Plane009
+    400020: Plane010
+    400022: Plane011
+    400024: Plane012
+    2300000: Plane001
+    2300002: Plane002
+    2300004: Plane003
+    2300006: Plane004
+    2300008: Plane005
+    2300010: Plane006
+    2300012: Plane007
+    2300014: Plane008
+    2300016: Plane009
+    2300018: Plane010
+    2300020: Plane011
+    2300022: Plane012
+    3300000: Plane001
+    3300002: Plane002
+    3300004: Plane003
+    3300006: Plane004
+    3300008: Plane005
+    3300010: Plane006
+    3300012: Plane007
+    3300014: Plane008
+    3300016: Plane009
+    3300018: Plane010
+    3300020: Plane011
+    3300022: Plane012
+    4300000: Plane001
+    4300002: Plane002
+    4300004: Plane003
+    4300006: Plane004
+    4300008: Plane005
+    4300010: Plane006
+    4300012: Plane007
+    4300014: Plane008
+    4300016: Plane009
+    4300018: Plane010
+    4300020: Plane011
+    4300022: Plane012
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -12,6 +75,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -19,9 +83,9 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
@@ -45,20 +109,19 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
