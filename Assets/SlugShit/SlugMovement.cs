@@ -29,15 +29,22 @@ public class SlugMovement : MonoBehaviour
 
         Frame frame = controller.Frame();
         gestures = frame.Gestures();
+        
 
-        if (gestures[0].Type == Gesture.GestureType.TYPE_SWIPE)
-        {
-            SwipeGesture swipe = new SwipeGesture(gestures[0]);
-            Vector swipeDirection = swipe.Direction;
-            if(swipeDirection == Vector.Left)
-                transform.Translate(new Vector3(-1,0,0));
-            else if(swipeDirection == Vector.Right)
-                transform.Translate(new Vector3(1, 0, 0));
+        foreach(Gesture gesture in gestures){
+            if (gesture.Type == Gesture.GestureType.TYPE_SWIPE)
+            {
+                SwipeGesture swipe = new SwipeGesture(gesture);
+                Vector swipeDirection = swipe.Direction;
+
+                float swipe_dot = swipeDirection.Dot(Vector.Left);
+
+                if (swipe_dot < -0.9)
+                    rb.rotation *= Quaternion.AngleAxis(-6, Vector3.up);
+
+                else if (swipe_dot > 0.9)
+                    rb.rotation *= Quaternion.AngleAxis(6, Vector3.up);
+            }
         }
 
 
