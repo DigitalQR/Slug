@@ -30,15 +30,7 @@ public class PopupManager : MonoBehaviour {
 
     void FixedUpdate()
     {
-        //Animation
-        Vector3 desired_location = on_location;
-        if (!active)
-            desired_location = off_location;
-
-        const float bias = 0.95f;
-        popup.transform.position = popup.transform.position * bias + desired_location * (1f - bias);
-
-
+        //Is the last popup finished?
         if (!active && !ready)
         {
             if((int)(popup.transform.position.x * 10) == (int)(off_location.x * 10) &&
@@ -48,6 +40,7 @@ public class PopupManager : MonoBehaviour {
                 ready = true;
         }
 
+        //If there is a popup waiting and none playing play the first popup in the queue
         if (queue.Count != 0 && ready)
         {
             image.sprite = queue[0].image;
@@ -56,6 +49,16 @@ public class PopupManager : MonoBehaviour {
             ready = false;
             Invoke("NextPopup", queue[0].duration);
         }
+    }
+
+    void PopupAnimation()
+    {
+        Vector3 desired_location = on_location;
+        if (!active)
+            desired_location = off_location;
+
+        const float bias = 0.95f;
+        popup.transform.position = popup.transform.position * bias + desired_location * (1f - bias);
     }
 
     void NextPopup()
