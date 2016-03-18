@@ -30,12 +30,14 @@ public class PopupManager : MonoBehaviour {
 
     void FixedUpdate()
     {
+        PopupAnimation();
+
         //Is the last popup finished?
         if (!active && !ready)
         {
-            if((int)(popup.transform.position.x * 10) == (int)(off_location.x * 10) &&
-                (int)(popup.transform.position.y * 10) == (int)(off_location.y * 10) &&
-                (int)(popup.transform.position.z * 10) == (int)(off_location.z * 10)
+            if((int)(popup.transform.position.x) == (int)(off_location.x) &&
+                (int)(popup.transform.position.y) == (int)(off_location.y) &&
+                (int)(popup.transform.position.z) == (int)(off_location.z)
                 )
                 ready = true;
         }

@@ -1678,97 +1678,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 279805300}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &291450343
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 190184, guid: f1a602bc9bd71f84986fb0da8a7f2685, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 291450346}
-  - 114: {fileID: 291450344}
-  - 114: {fileID: 291450345}
-  - 114: {fileID: 291450348}
-  - 114: {fileID: 291450347}
-  m_Layer: 0
-  m_Name: MovementTutorial
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &291450344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11448402, guid: f1a602bc9bd71f84986fb0da8a7f2685,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 291450343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 746bead99854bef4c9260df5f1e77071, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Place your hand out infront of you to move forwards.
-  duration: 5
-  image: {fileID: 21300000, guid: 0006fb483066fef4fbd5528640e5e9b5, type: 3}
---- !u!114 &291450345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11419224, guid: f1a602bc9bd71f84986fb0da8a7f2685,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 291450343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 746bead99854bef4c9260df5f1e77071, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Nice.
-  duration: 5
-  image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
---- !u!4 &291450346
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 421890, guid: f1a602bc9bd71f84986fb0da8a7f2685, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 291450343}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40.44561, y: 101.55786, z: -309.6755}
-  m_LocalScale: {x: 0.5797101, y: 0.5797101, z: 0.5797101}
-  m_Children:
-  - {fileID: 2087669417}
-  m_Father: {fileID: 622373285}
-  m_RootOrder: 1
---- !u!114 &291450347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 291450343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 746bead99854bef4c9260df5f1e77071, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Excellent, you're all set.
-  duration: 5
-  image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
---- !u!114 &291450348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 291450343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 746bead99854bef4c9260df5f1e77071, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: To turn left and right, place arm infront of Leap Motion controller and
-    swipe.
-  duration: 5
-  image: {fileID: 21300000, guid: 7fbaf9fc41727c948899e2cc860079f9, type: 3}
 --- !u!1 &303678780
 GameObject:
   m_ObjectHideFlags: 0
@@ -3363,7 +3272,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1146316343}
-  - {fileID: 291450346}
+  - {fileID: 2087669417}
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_AnchorMin: {x: 0, y: 0}
@@ -11540,16 +11449,16 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2087669416}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 534.19025}
-  m_LocalScale: {x: 1.725, y: 1.725, z: 1.725}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1073067433}
   - {fileID: 1867686474}
-  m_Father: {fileID: 291450346}
-  m_RootOrder: 0
+  m_Father: {fileID: 622373285}
+  m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 69.76869, y: 10.487671}
+  m_AnchoredPosition: {x: 0, y: -80}
   m_SizeDelta: {x: 358.3, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2087669418
