@@ -33,7 +33,7 @@ public class SweepAway : MonoBehaviour {
             black.enabled = true;
             Instantiate(Thunder);
             
-            Invoke("On", 8);
+            Invoke("On", 5);
         }
 
         if (fade)
@@ -52,6 +52,7 @@ public class SweepAway : MonoBehaviour {
     {
         GameObject slug = GameObject.FindGameObjectWithTag("Player");
         slug.transform.position = spawn.transform.position;
+        Camera.main.transform.rotation = Quaternion.AngleAxis(180, Vector3.up);
         fade = true;
     }
 }
