@@ -5,7 +5,7 @@ using System.Collections;
 public class CreatePopup : MonoBehaviour {
 
     public string message;
-    public float duration;
+    public int duration;
     public Sprite image;
     
     void Start () {
