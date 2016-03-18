@@ -42,7 +42,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746bead99854bef4c9260df5f1e77071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Holding the hand in front of the Leap motion, whill allow you to move forward
+  message: Holding the hand in front of the Leap motion, will allow you to move forward
   duration: 8
   image: {fileID: 21300000, guid: 0006fb483066fef4fbd5528640e5e9b5, type: 3}
 --- !u!114 &11448402
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746bead99854bef4c9260df5f1e77071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Great work, you are all set!!!
+  message: Great work, you're all set!!!
   duration: 6
   image: {fileID: 21300000, guid: 7fbaf9fc41727c948899e2cc860079f9, type: 3}
 --- !u!114 &11477400
