@@ -54,7 +54,7 @@ public class MovementTesting : MonoBehaviour {
         }
 
         rb.rotation *= Quaternion.AngleAxis(rotation_speed * Input.GetAxis("Mouse X"), Vector3.up);
-
+        rb.rotation *= Quaternion.AngleAxis(rotation_speed * Input.GetAxis("Mouse Y"), Vector3.left);
     }
 
 }
