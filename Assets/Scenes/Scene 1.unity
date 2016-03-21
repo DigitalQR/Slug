@@ -4934,7 +4934,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 422000, guid: 29c628084a17317439de233d73e4d62c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 780.55
+      value: 808.1
       objectReference: {fileID: 0}
     - target: {fileID: 422000, guid: 29c628084a17317439de233d73e4d62c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -4954,7 +4954,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 422000, guid: 29c628084a17317439de233d73e4d62c, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29c628084a17317439de233d73e4d62c, type: 2}
@@ -13491,6 +13491,14 @@ Prefab:
     - target: {fileID: 191520, guid: 69b40ef7ee16c834c844b3fa26e0fdda, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11437536, guid: 69b40ef7ee16c834c844b3fa26e0fdda, type: 2}
+      propertyPath: RainMistThreshold
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19831730, guid: 69b40ef7ee16c834c844b3fa26e0fdda, type: 2}
+      propertyPath: InitialModule.startColor.maxColor.rgba
+      value: 1174405375
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69b40ef7ee16c834c844b3fa26e0fdda, type: 2}

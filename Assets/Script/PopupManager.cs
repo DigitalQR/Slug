@@ -24,7 +24,7 @@ public class PopupManager : MonoBehaviour {
     void Start()
     {
         on_location = popup.transform.position;
-        off_location = on_location + new Vector3(0,100,0);
+        off_location = on_location + new Vector3(0,1000,0);
         popup.transform.position = off_location;
     }
 
