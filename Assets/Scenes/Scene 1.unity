@@ -698,7 +698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousCheckPoint: {fileID: 1009078663}
   requiredTag: Player
-  CheckPointEvent: {fileID: 190184, guid: cdc2adae1b7d73745bcd04a8fb42b70e, type: 2}
+  CheckPointEvent: {fileID: 190184, guid: e56875816f3b4284a9438fcc4d9e1ec4, type: 2}
   destroyOnceAcivated: 1
 --- !u!65 &76002466
 BoxCollider:
@@ -9035,7 +9035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousCheckPoint: {fileID: 1009078663}
   requiredTag: Player
-  CheckPointEvent: {fileID: 0}
+  CheckPointEvent: {fileID: 190184, guid: 846dfee4e6caa3341944bd913382556b, type: 2}
   destroyOnceAcivated: 1
 --- !u!65 &1250513237
 BoxCollider:
