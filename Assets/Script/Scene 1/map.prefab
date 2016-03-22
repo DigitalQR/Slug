@@ -11,7 +11,7 @@ GameObject:
   - 82: {fileID: 8248226}
   - 114: {fileID: 11433754}
   m_Layer: 0
-  m_Name: 13
+  m_Name: map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,7 +38,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c692c80151caece428ef30b7b8dee880, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a4129c9609704ef449dac27c5e352025, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -91,7 +91,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -124,7 +124,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a1a2fc8c956fe6641adb882b29996da4, type: 3}
+      objectReference: {fileID: 8300000, guid: a4129c9609704ef449dac27c5e352025, type: 3}
     - target: {fileID: 0}
       propertyPath: panLevelCustomCurve.m_RotationOrder
       value: 0
@@ -145,6 +145,10 @@ Prefab:
       propertyPath: spawn
       value: 
       objectReference: {fileID: 190184, guid: 755de94b72a76d1418414436f179178e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Name
+      value: map
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 190184}

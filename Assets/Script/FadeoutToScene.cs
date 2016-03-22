@@ -20,7 +20,7 @@ public class FadeoutToScene : MonoBehaviour {
         {
             if (black.color.a < 1)
             {
-                black.color = new Color(0f, 0f, 0f, black.color.a + 0.05f);
+                black.color = new Color(0f, 0f, 0f, black.color.a + 0.1f);
                 return;
             }
             SceneManager.LoadScene(sceneName);
