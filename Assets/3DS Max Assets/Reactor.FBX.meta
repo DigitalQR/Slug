@@ -30,6 +30,9 @@ ModelImporter:
     100044: Wall002
     100046: Wall003
     100048: Wall004
+    100050: Box008
+    100052: Object001
+    100054: Object002
     400000: Box001
     400002: Box003
     400004: Box004
@@ -55,6 +58,9 @@ ModelImporter:
     400044: Wall002
     400046: Wall003
     400048: Wall004
+    400050: Box008
+    400052: Object001
+    400054: Object002
     2300000: Box001
     2300002: Box003
     2300004: Box004
@@ -78,6 +84,9 @@ ModelImporter:
     2300040: Wall002
     2300042: Wall003
     2300044: Wall004
+    2300046: Box008
+    2300048: Object001
+    2300050: Object002
     3300000: Box001
     3300002: Box003
     3300004: Box004
@@ -101,6 +110,9 @@ ModelImporter:
     3300040: Wall002
     3300042: Wall003
     3300044: Wall004
+    3300046: Box008
+    3300048: Object001
+    3300050: Object002
     4300000: Tower2
     4300002: Wall001
     4300004: Box001
@@ -124,6 +136,9 @@ ModelImporter:
     4300040: Box004
     4300042: Box005
     4300044: Box007
+    4300046: Object001
+    4300048: Object002
+    4300050: Box008
   materials:
     importMaterials: 1
     materialName: 0
