@@ -15,7 +15,7 @@ public class MovementTesting : MonoBehaviour {
         speed = GetComponent<SlugMovement>().speed;
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (cooldown != 0)
             cooldown--;
