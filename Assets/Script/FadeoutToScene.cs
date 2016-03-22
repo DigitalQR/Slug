@@ -30,8 +30,10 @@ public class FadeoutToScene : MonoBehaviour {
 
     void OnTriggerEnter(Collider col)
     {
-        black.enabled = true;
-        black.color = new Color(0f, 0f, 0f, 0.005f);
-        fade = true;
+        if (col.gameObject.tag.Equals("Player")) {
+            black.enabled = true;
+            black.color = new Color(0f, 0f, 0f, 0.005f);
+            fade = true;
+        }
     }
 }
