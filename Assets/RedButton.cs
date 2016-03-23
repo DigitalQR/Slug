@@ -3,11 +3,13 @@ using System.Collections;
 
 public class RedButton : MonoBehaviour {
 
+	GameObject console;
 	Animator animator;
 
 	// Use this for initialization
 	void Start () {
-		animator = GetComponent<Animator>();
+		console = GameObject.FindGameObjectWithTag ("console");
+		animator = console.GetComponent<Animator>();
 	}
 
 	
