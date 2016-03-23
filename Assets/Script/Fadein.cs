@@ -12,5 +12,9 @@ public class Fadein : MonoBehaviour {
             black.color = new Color(0f, 0f, 0f, black.color.a - 0.05f);
             return;
         }
+        else
+        {
+            Destroy(this);
+        }
     }
 }
