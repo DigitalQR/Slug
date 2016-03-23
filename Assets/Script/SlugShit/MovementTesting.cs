@@ -33,8 +33,10 @@ public class MovementTesting : MonoBehaviour {
             Debug.Log("Debug Movement: " + debug_movement);
             cooldown = 20;
         }
-        
+    }
 
+    void FixedUpdate()
+    {
         if (!debug_movement)
             return;
 
