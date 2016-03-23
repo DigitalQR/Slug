@@ -4,6 +4,7 @@ using System.Collections;
 
 public class ExplosiveEnding : MonoBehaviour {
 
+    public GameObject explosion_sound;
     public GameObject juke_box;
     Text end_text;
     RawImage black;
@@ -16,13 +17,14 @@ public class ExplosiveEnding : MonoBehaviour {
         {
             Destroy(source);
         }
+        Instantiate(explosion_sound);
 
         end_text = GameObject.FindObjectOfType<Text>();
         end_text.color = new Color(0, 0, 0, 1);
         black = GameObject.FindObjectOfType<RawImage>();
 
         black.color = new Color(1, 1, 1, 1);
-        Invoke("BlackFade", 2);
+        Invoke("BlackFade", 3);
     }
 	
 	void Update()
