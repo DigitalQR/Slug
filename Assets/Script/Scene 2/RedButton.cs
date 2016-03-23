@@ -3,7 +3,10 @@ using System.Collections;
 
 public class RedButton : MonoBehaviour {
 
-	GameObject console;
+    public GameObject geiger_sound;
+    public GameObject explosion;
+
+    GameObject console;
 	Animator animator;
 
 	// Use this for initialization
@@ -18,6 +21,18 @@ public class RedButton : MonoBehaviour {
 		if (col.gameObject.CompareTag ("Player")) 
 		{
 			animator.SetTrigger("RedButton");
+            Invoke("GeigerSound", 1.6666f);
 		}
 	}
+
+    void GeigerSound()
+    {
+        Instantiate(geiger_sound);
+        Invoke("Explosion", 4.7f);
+    }
+
+    void Explosion()
+    {
+        Instantiate(explosion);
+    }
 }

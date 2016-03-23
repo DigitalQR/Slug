@@ -1545,7 +1545,7 @@ Transform:
   - {fileID: 445768587}
   - {fileID: 813663293}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
 --- !u!1 &300132736
 GameObject:
   m_ObjectHideFlags: 0
@@ -3917,6 +3917,62 @@ Transform:
   - {fileID: 1941906824}
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!1 &627295844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 627295847}
+  - 65: {fileID: 627295846}
+  - 114: {fileID: 627295845}
+  m_Layer: 0
+  m_Name: Ramp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &627295845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 627295844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea031f64dfedeae4495be06522f7a7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousCheckPoint: {fileID: 0}
+  requiredTag: Player
+  CheckPointEvent: {fileID: 190184, guid: 28f7ba9f52886354782d89cdef18d429, type: 2}
+  destroyOnceAcivated: 1
+--- !u!65 &627295846
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 627295844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 26.718466, y: 0.54774004, z: 11.109333}
+  m_Center: {x: -13.461355, y: -0.22587243, z: -22.860332}
+--- !u!4 &627295847
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 627295844}
+  m_LocalRotation: {x: -0.10146315, y: -0.69775575, z: -0.10086355, w: 0.7019037}
+  m_LocalPosition: {x: -842.85, y: 157.02, z: 26.7}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
 --- !u!1 &631888015 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100038, guid: b2ed1b94399022d4397706e95e13a8ee, type: 3}
@@ -10935,6 +10991,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39abcc49fe9e8414ba7986ea998049f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geiger_sound: {fileID: 190184, guid: ce0df469e59683f40829df221d7fd787, type: 2}
+  explosion: {fileID: 190184, guid: 8cf221b285016f04fbb1589abfd4e1fc, type: 2}
 --- !u!64 &2014360204
 MeshCollider:
   m_ObjectHideFlags: 0
