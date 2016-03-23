@@ -12,6 +12,11 @@ public class ExplosiveEnding : MonoBehaviour {
 
     void Start ()
     {
+        foreach (AudioSource source in GameObject.FindObjectsOfType<AudioSource>())
+        {
+            Destroy(source);
+        }
+
         end_text = GameObject.FindObjectOfType<Text>();
         end_text.color = new Color(0, 0, 0, 1);
         black = GameObject.FindObjectOfType<RawImage>();
