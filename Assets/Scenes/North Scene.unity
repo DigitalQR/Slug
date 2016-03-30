@@ -1966,6 +1966,14 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 2.439996
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: af8515347a6eae64498f171567b0771f, type: 2}
+    - target: {fileID: 9500000, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
   m_IsPrefabParent: 0
@@ -1976,10 +1984,6 @@ GameObject:
 --- !u!1 &337248701 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100018, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
-  m_PrefabInternal: {fileID: 337248699}
---- !u!1 &337248702 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100016, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
   m_PrefabInternal: {fileID: 337248699}
 --- !u!1 &337248703 stripped
 GameObject:
@@ -2013,8 +2017,8 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 14.561686
   m_Center: {x: -0.000030517578, y: -3.9591845e-15, z: -0.55720574}
---- !u!65 &337248709
-BoxCollider:
+--- !u!64 &337248709
+MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2023,20 +2027,20 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6593342, y: 2.7538245, z: 2.215447}
-  m_Center: {x: 4.399862, y: -0.012980643, z: 9.741603}
+  m_Convex: 0
+  m_Mesh: {fileID: 4300020, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
 --- !u!64 &337248710
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 337248702}
+  m_GameObject: {fileID: 337248707}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Convex: 0
-  m_Mesh: {fileID: 4300012, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
+  m_Mesh: {fileID: 4300014, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
 --- !u!64 &337248711
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2085,18 +2089,6 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300024, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
---- !u!65 &337248715
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 337248707}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.85918915, y: 1.7577175, z: 4.4455857}
-  m_Center: {x: 0.71515924, y: 0.0031865933, z: 1.5552487}
 --- !u!1 &338077183 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100030, guid: d78d8f05ce1c47a458fe3c7fd135a987, type: 3}
@@ -4739,6 +4731,11 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300010, guid: b2ed1b94399022d4397706e95e13a8ee, type: 3}
+--- !u!95 &841970938 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 9500000, guid: 9fde5c1bbf910a24597bd9e92502093a,
+    type: 3}
+  m_PrefabInternal: {fileID: 337248699}
 --- !u!1001 &863055616
 Prefab:
   m_ObjectHideFlags: 0
@@ -7863,13 +7860,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1350637744}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea031f64dfedeae4495be06522f7a7ef, type: 3}
+  m_Script: {fileID: 11500000, guid: adfa7d8b960ddd246bc88c4422a87f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previousCheckPoint: {fileID: 0}
-  requiredTag: Player
-  CheckPointEvent: {fileID: 0}
-  destroyOnceAcivated: 1
+  TotalGumballs: 20
+  Gumball: {fileID: 196846, guid: a0f1565b0cb211d4789f570ab8bae6c2, type: 2}
+  GumballMachineAnimator: {fileID: 841970938}
 --- !u!1001 &1351046860
 Prefab:
   m_ObjectHideFlags: 0
