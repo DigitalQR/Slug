@@ -1974,7 +1974,12 @@ Prefab:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 11100000, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
+      propertyPath: m_PlayAutomatically
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11100000, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &337248700 stripped
@@ -3873,6 +3878,22 @@ MeshCollider:
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: f7dbd3fe51cedfe4a9965ae0028b13a6, type: 3}
   m_PrefabInternal: {fileID: 1592333752}
+--- !u!1 &604725530 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100028, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
+  m_PrefabInternal: {fileID: 337248699}
+--- !u!65 &604725534
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 604725530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02073259, y: 0.24842982, z: 0.20116037}
+  m_Center: {x: -0.000015438069, y: -0.000015035222, z: 0.05336671}
 --- !u!1 &605504717
 GameObject:
   m_ObjectHideFlags: 0
@@ -4731,11 +4752,6 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300010, guid: b2ed1b94399022d4397706e95e13a8ee, type: 3}
---- !u!95 &841970938 stripped
-Animator:
-  m_PrefabParentObject: {fileID: 9500000, guid: 9fde5c1bbf910a24597bd9e92502093a,
-    type: 3}
-  m_PrefabInternal: {fileID: 337248699}
 --- !u!1001 &863055616
 Prefab:
   m_ObjectHideFlags: 0
@@ -7865,7 +7881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TotalGumballs: 20
   Gumball: {fileID: 196846, guid: a0f1565b0cb211d4789f570ab8bae6c2, type: 2}
-  GumballMachineAnimator: {fileID: 841970938}
+  GumballMachineAnimator: {fileID: 2076192826}
 --- !u!1001 &1351046860
 Prefab:
   m_ObjectHideFlags: 0
@@ -11611,6 +11627,27 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: f7dbd3fe51cedfe4a9965ae0028b13a6, type: 3}
+--- !u!1 &2076192824 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100012, guid: 9fde5c1bbf910a24597bd9e92502093a, type: 3}
+  m_PrefabInternal: {fileID: 337248699}
+--- !u!95 &2076192826
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2076192824}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: af8515347a6eae64498f171567b0771f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &2082529478 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 148342, guid: 97fa06b8380d8d0478a4a1fd7ee4ee2c, type: 2}
