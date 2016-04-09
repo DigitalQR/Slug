@@ -7880,8 +7880,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TotalGumballs: 20
-  Gumball: {fileID: 196846, guid: a0f1565b0cb211d4789f570ab8bae6c2, type: 2}
+  GumballPrefab: {fileID: 196846, guid: a0f1565b0cb211d4789f570ab8bae6c2, type: 2}
   GumballMachineAnimator: {fileID: 2076192826}
+  myInventory:
+    Gumballs:
+    - color: {fileID: 2100000, guid: 3324da667cd38a74c8f50e7aae8fadaa, type: 2}
+      count: 5
+    - color: {fileID: 2100000, guid: 1f5c6ed06a0c3574fb4fce3f8ae8c41a, type: 2}
+      count: 3
+    - color: {fileID: 2100000, guid: 6fff4b4dcd5c6934bb345a23d0aeb784, type: 2}
+      count: 3
+    - color: {fileID: 2100000, guid: 4559bc2136f8e9a4287252e15bd827ab, type: 2}
+      count: 5
+    - color: {fileID: 2100000, guid: 3989102bd4e70e640ab6068b4cb7e6d0, type: 2}
+      count: 4
 --- !u!1001 &1351046860
 Prefab:
   m_ObjectHideFlags: 0
