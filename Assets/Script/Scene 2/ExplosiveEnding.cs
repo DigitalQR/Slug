@@ -48,7 +48,7 @@ public class ExplosiveEnding : MonoBehaviour {
             end_text.enabled = true;
             if (black.color.r < 1)
             {
-                end_text.color = new Color(end_text.color.r + 0.0001f, end_text.color.r + 0.0001f, end_text.color.r + 0.0001f, 1);
+                end_text.color = new Color(end_text.color.r + 0.001f, end_text.color.r + 0.001f, end_text.color.r + 0.001f, 1);
             }
         }
 	}
