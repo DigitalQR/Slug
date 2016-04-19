@@ -9615,9 +9615,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 48
+    m_FontSize: 38
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 5
     m_MaxSize: 129
     m_Alignment: 4
@@ -9626,7 +9626,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "THE BAD \nEND\n"
+  m_Text: Harnessing remnant nuclear power from the reactors, Ian activates a melt-down
+    and obliterates all of Chernobyl. Never again will humans soil Chernobyl with
+    their presence.
 --- !u!222 &1614968084
 CanvasRenderer:
   m_ObjectHideFlags: 0
