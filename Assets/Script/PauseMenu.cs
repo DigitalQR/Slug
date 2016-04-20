@@ -3,6 +3,9 @@ using System.Collections;
 
 public class PauseMenu : MonoBehaviour
 {
+	enum Fade {In, Out}
+	float fadeTime = 4.0F;
+
 
 	public GameObject PauseUI;
 	private bool paused = false;
@@ -46,7 +49,10 @@ public class PauseMenu : MonoBehaviour
 
 	public void NewGame()
 	{
+		StartCoroutine (FadeAudio (fadeTime, Fade.Out));
+		System.Threading.Thread.Sleep(5000);
 		Application.LoadLevel(1);
+
 	}
 
 	public void Quit()
@@ -58,4 +64,18 @@ public class PauseMenu : MonoBehaviour
 	{
 		Application.LoadLevel (0);
 	}
+
+
+	IEnumerator FadeAudio (float timer, Fade fadeType) {
+		float start = fadeType == Fade.In? 0.0F : 1.0F;
+		float end = fadeType == Fade.In? 1.0F : 0.0F;
+		float i = 0.0F;
+		float step = 1.0F/timer;
+
+		while (i <= 1.0F) {
+			i += step * Time.deltaTime;
+			GetComponent<AudioSource>().volume = Mathf.Lerp(start, end, i);
+			yield return new WaitForSeconds(step * Time.deltaTime);
+		}
+}
 }
