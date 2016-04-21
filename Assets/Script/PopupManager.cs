@@ -21,20 +21,15 @@ public class PopupManager : MonoBehaviour {
     private Vector3 on_location;
     private Vector3 off_location;
 
-    public Transform Canvas;
-
     void Start()
     {
-        
         on_location = popup.transform.position;
-        off_location = on_location; // + new Vector3(0,0,0);
+        off_location = on_location + new Vector3(0,1000,0);
         popup.transform.position = off_location;
     }
 
     void FixedUpdate()
     {
-        on_location.x = Canvas.position.x;
-        on_location.z = Canvas.position.z;
         PopupAnimation();
 
         //Is the last popup finished?
@@ -56,7 +51,6 @@ public class PopupManager : MonoBehaviour {
             ready = false;
             Invoke("NextPopup", queue[0].duration);
         }
-
     }
 
     void PopupAnimation()
@@ -64,11 +58,9 @@ public class PopupManager : MonoBehaviour {
         Vector3 desired_location = on_location;
         if (!active)
             desired_location = off_location;
-        Debug.Log(desired_location.y);
-        Debug.Log(off_location.y);
+
         const float bias = 0.95f;
         popup.transform.position = popup.transform.position * bias + desired_location * (1f - bias);
-        Debug.Log(popup.transform.position);
     }
 
     void NextPopup()
